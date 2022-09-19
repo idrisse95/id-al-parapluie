@@ -18,3 +18,18 @@
 _italique_
 
 ![image](img1.png "ime")
+
+```
+ligne code
+<h1>Site dr idriss</h1>
+
+    <hr/>
+
+
+
+    <p>Bonjour comment ca va bien </p>
+
+
+
+    <img src="img1.png">
+```
