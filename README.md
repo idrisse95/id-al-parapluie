@@ -31,5 +31,5 @@ ligne code
 
 
 
-    <img src="img1.png">
+    <img src="img1.png" width="400px">
 ```
