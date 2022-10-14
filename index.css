@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "police";
+  src: url("police/Las\ locuras\ del\ emperador.TTF") format("truetype");
+}
+@font-face {
+  font-family: "taco";
+  src: url("police/TACOBOX_.TTF") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 90px;
+  box-sizing: border-box;
+  border-bottom: 1px solid white;
+  background-color: black;
+}
+
+nav h1 {
+  padding: 22px 20px;
+  height: 80px;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  float: right;
+  display: flex;
+}
+
+nav ul li a {
+  line-height: 80px;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  background: white;
+  color: black;
+  border-radius: 6px;
+}
+
+#imgFond {
+  background-image: url("img/imgFond.jpg");
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 400px;
+}
+
+#imgFond p {
+  padding: 100px;
+  color: white;
+  font-size: 35px;
+  font-family: "police";
+}
+#materiel {
+  position: relative;
+  margin-top: -150px;
+}
+#materiel table img {
+  width: 300px;
+}
+
+#materiel table td {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-family: "taco";
+  font-size: 25px;
+}
+
+#materiel table .prix {
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+#materiel table:first-child {
+  margin-bottom: 100px;
+}
+
+footer {
+  background-image: url("img/imgFond.jpg");
+  padding: 20px 0 40px;
+  width: 100%;
+  height: 60px;
+}
