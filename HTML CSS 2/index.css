@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  font-family: arial, sans-serif;
+}
+.clear {
+  width: 300px;
+}
+
+h4 {
+  font-size: 24px;
+  color: #444;
+}
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+header {
+  height: 120px;
+}
+header h1 {
+  font-weight: bold;
+  font-family: "crete round", serif;
+  font-size: 45px;
+  float: left;
+  margin-top: 32px;
+}
+.orange {
+  color: orange;
+}
+header ul {
+  float: right;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+header ul li {
+  display: inline;
+  margin-right: 20px;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+
+#prem {
+  height: 580px;
+  background: url("image/senegal.jpg");
+}
+#prem h2 {
+  font-weight: normal;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  padding: 140px 0 40px 0;
+  text-transform: uppercase;
+}
+.button1 {
+  background-color: orange;
+  display: block;
+  font-size: 20px;
+  padding: 0 auto;
+  margin: 0 auto;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 3px;
+  color: white;
+}
+
+.button1:hover {
+  background-color: blue;
+}
+#deux {
+  padding-bottom: 100px;
+}
+#deux h4 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+#deux p {
+  line-height: 20px;
+  width: 250px;
+  font-size: small;
+}
+#deux table {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+#deux table td {
+  padding: 20px;
+}
+
+#trois {
+  background-color: rgb(219, 219, 219);
+  width: 100%;
+  height: 300px;
+  padding: 65px 0;
+}
+
+#trois article {
+  width: 450px;
+  height: 270px;
+  border-radius: 10px;
+  float: left;
+  margin-left: 20px;
+}
+
+#trois p {
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.overley {
+  width: 190px;
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-sizing: border-box;
+  border-radius: 10px 0 0 10px;
+  text-align: center;
+}
+#trois h4 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  border-bottom: 1px solid orange;
+}
+.button2 {
+  background-color: orange;
+  padding: 6px 20px;
+  text-align: center;
+  border-radius: 3px;
+  color: white;
+}
+
+.button2:hover {
+  background-color: blue;
+}
+
+article :first-child {
+  margin-right: 20px;
+}
